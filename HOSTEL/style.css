@@ -1,0 +1,231 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+body{
+	font-family: arial,sans-seriff;
+	line-height: 25px;
+	background-image: url("image/p2.jpg");
+   background-color: #cccccc;
+	
+}
+
+.wrapper1{
+	font:Times New Roman;
+	font-family: sans-serif;
+	background-image: url("image/p1.jpg");
+   background-color: #cccccc;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1% 1%;
+}
+.wrapper2{
+	font:Times New Roman;
+	font-family: sans-serif;
+   background-color: #cccccc;
+	border: 2px solid red;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1% 1%;
+}
+
+
+.wrapper3{
+	font-family: sans-serif;
+	background-image: url("image/p2.jpg");
+   background-color: #cccccc;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1% 1%;
+}
+.wrapper4{
+	font-family: sans-serif;
+	background-color: none;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1% 1%;
+}
+.wrapper8{
+	background-color: white;
+	border: 1px solid red;
+	width: 50%;
+	margin: 0 auto;
+	padding: 1% 1%;
+}
+.wrapper{
+	background-color: white;
+	border: 1px solid red;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1% 1%;
+}
+
+.clearfix:after{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+/*css for slider*/
+.slider{
+	margin: 2% auto;
+}
+
+/*css for Main Body*/
+.main{
+	margin:1% 0;
+}
+.main h3{
+	color:purple;
+}
+.houses{
+	text-align: center;
+	width:22%;
+	border:1px solid grey;
+	margin:1%;
+	float:left;
+}
+.houses img{
+	width:100%;
+}
+.houses .house-title{
+	font-weight: bold;
+	color:darkblue;
+	padding: 1%;
+	
+}
+.houses:hover{
+	box-shadow: 0 0 3px 3px silver;
+}
+.hostel-detail h2{
+	color:Red;
+}
+.hostel-detail .img1{
+	width:20%;
+	float:left;
+	padding:2%;
+}
+.img8{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:300px;
+}
+.hostel-detail .img2{
+	width:20%;
+	float:right;
+	padding:2%;
+}
+.hostel-detail p{
+	text-align: justify;
+	padding:1%;
+	color:#394d6d;
+}
+.hostel-detail p b{
+	color:red;
+}
+.main .booking-details{
+	width:50%;
+	margin:0 auto;
+	border:2px solid darkblue;
+	padding: 2%;
+	margin: 2% auto;
+}
+.booking-details h3{
+	margin-bottom: 2%;
+}
+.main .booking-details .name{
+	width:20%;float:left;
+}
+.booking-details input[type='text'], .booking-details input[type='email'],
+.booking-details input[type='tel'], .booking-details input[type='address'],.booking-details textarea{
+	width:70%;
+	padding: 1%;
+	margin: 0.5%;
+}
+
+.main .booking-details input[type='submit']{
+	text-align: center;
+	padding:2%;
+	background-color: darkblue;
+	color:white;
+	border: none;
+	margin-left:20%;
+}
+
+.main .booking-details input[type='reset']{
+	text-align: center;
+	padding:2%;
+	background-color: darkred;
+	color:white;
+	border:none;
+}
+
+.main .booking-details input[type='submit']:hover{
+	box-shadow: 0 0 3px 2px grey;
+}
+.main .booking-details input[type='reset']:hover{
+	box-shadow: 0 0 3px 2px grey;
+}
+
+/*CSS for Staff Images*/
+.main .wrapper .hostel-detail .imgs{
+	width:8%;
+	float: left;
+	padding:2%;
+}
+
+/*css for Main Body*/
+
+
+
+/*CSS for Menu*/
+.menu u1{
+	list-style-type: none;
+}
+.menu u1 a li{
+	display: inline;
+}
+.menu u1 a{
+	color:darkblue;
+	text-decoration:none;
+	padding:1%; 
+}
+.menu u1 a:hover{
+	background-color: darkblue;
+	color:white;
+}
+/*CSS for Menu*/
+
+/*CSS for Header*/
+.header{
+	background-color: rgb(48, 42, 36);;
+	color:white;
+}
+/*CSS for Header*/
+
+
+
+.footer{
+	background-color: darkblue;
+	color:white;
+	background-image: url("image/p2.jpg");
+   background-color: #cccccc;
+}
+
+.footer p{
+	text-align: center;
+}
+.footer p a{
+	color:lightblue;
+}
+.footer p a:hover{
+	text-decoration: none; 
+}
+
+
+
